@@ -8,13 +8,13 @@ def main():
     while True:
         try:
             numero = ingrese_numero()
-            print(f"Número válido: {numero}")
+            print(f"Número válido: {numero} \n")
         except ValueError as e:
             print(f"Error: {e}")
         except NumeroDebeSerPositivo as e:
             print(f"Error: {e}")
         except KeyboardInterrupt:
-            print("\nPrograma finalizado.")
+            print("\nPrograma finalizado. \n")
             break
 
 if __name__ == "__main__":
